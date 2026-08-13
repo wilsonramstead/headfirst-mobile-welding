@@ -9,7 +9,7 @@ Single-page, self-contained demo built for Wilson Innovations outreach.
 - **Hours:** GBP lists "Open 24 hours" 7 days — NOT credible as a literal 24-hour storefront for an owner-run mobile welder, so presented honestly as **"mobile by appointment, 7 days"** with **"same-day when the schedule allows."** No literal 24/7 claim made; no openingHoursSpecification in the JSON-LD (avoids asserting fixed hours).
 - **Owner referenced:** Cricket / Crick (one review also names him "Eric"). Kept out of body copy per the no-owner-personality-section rule; his name appears only inside verbatim customer pull-quotes ("Cricket is the man", "trust Crick and the team").
 - **Tier:** 1 (Clean Slate), industrial recolor per manifest palette hint
-- **Fonts:** Bigshot One (display, heavy slab) + Cutive Mono (body, typewriter mono) — assigned pair, both Google Fonts (each single weight 400)
+- **Fonts:** Big Shoulders Display (display, industrial) + Public Sans (body, proportional) — approved proven pair, both Google Fonts
 - **Palette:** graphite near-black (#16181b) / molten-orange spark (#ee5a13, amber #ff9247 on dark) / raw steel gray (#eef0f3 bg, #878e98 steel)
 - **Live URL:** https://wilsoninnovations.net/headfirst-mobile-welding/
 

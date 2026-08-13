@@ -25,7 +25,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bigshot+One&family=Cutive+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;800;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
 {
@@ -81,10 +81,10 @@
   html{ scroll-behavior:smooth; }
   body{
     margin:0;
-    font-family:"Cutive Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    font-family:"Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color:var(--ink);
     background:var(--bg);
-    line-height:1.72;
+    line-height:1.65;
     font-weight:400;
     -webkit-font-smoothing:antialiased;
     text-rendering:optimizeLegibility;
@@ -93,9 +93,9 @@
   a{ color:inherit; text-decoration:none; }
   button{ font-family:inherit; }
   h1,h2,h3,.display{
-    font-family:"Bigshot One", "Arial Black", system-ui, sans-serif;
-    font-weight:400; line-height:1.08; margin:0;
-    letter-spacing:.01em; color:var(--ink); text-wrap:balance;
+    font-family:"Big Shoulders Display", "Arial Narrow", system-ui, sans-serif;
+    font-weight:800; line-height:1.05; margin:0;
+    letter-spacing:.005em; color:var(--ink); text-wrap:balance;
   }
   h1{ font-size:clamp(2.1rem,4.9vw,3.5rem); letter-spacing:.005em; }
   h2{ font-size:clamp(1.8rem,3.7vw,2.85rem); }
@@ -109,7 +109,7 @@
 
   .eyebrow{
     display:inline-flex; align-items:center; gap:.7em;
-    font-family:"Cutive Mono", monospace;
+    font-family:"Public Sans", system-ui, sans-serif;
     text-transform:uppercase; letter-spacing:.2em; font-size:.72rem; font-weight:700;
     color:var(--orange-dark); margin:0 0 16px;
   }
@@ -126,7 +126,7 @@
   .btn{
     position:relative; overflow:hidden;
     display:inline-flex; align-items:center; justify-content:center; gap:.55em;
-    font-family:"Cutive Mono", monospace; font-weight:700; font-size:.95rem; letter-spacing:.02em;
+    font-family:"Public Sans", system-ui, sans-serif; font-weight:700; font-size:.95rem; letter-spacing:.02em;
     padding:.92em 1.6em; border-radius:8px; border:2px solid transparent; cursor:pointer;
     transition:transform .22s var(--ease), box-shadow .22s var(--ease), background .22s var(--ease), color .22s var(--ease), border-color .22s var(--ease);
     line-height:1; white-space:nowrap; min-width:0;
@@ -168,10 +168,10 @@
   }
   .brand .mark::after{ content:""; position:absolute; left:0; right:0; bottom:0; height:5px; background:var(--orange); }
   .brand .mark svg{ width:26px; height:26px; position:relative; z-index:1; }
-  .brand .name{ font-family:"Bigshot One","Arial Black",sans-serif; font-weight:400; font-size:1.22rem; line-height:1; letter-spacing:.01em; min-width:0; }
-  .brand .name b{ color:var(--orange); font-weight:400; }
+  .brand .name{ font-family:"Big Shoulders Display","Arial Narrow",sans-serif; font-weight:800; font-size:1.22rem; line-height:1; letter-spacing:.01em; min-width:0; }
+  .brand .name b{ color:var(--orange); font-weight:800; }
   .brand .name small{
-    display:block; font-family:"Cutive Mono",monospace; font-weight:700;
+    display:block; font-family:"Public Sans", system-ui, sans-serif; font-weight:700;
     font-size:.55rem; letter-spacing:.15em; text-transform:uppercase; color:var(--muted); margin-top:8px;
   }
   .nav{ display:flex; align-items:center; gap:6px; }
@@ -224,7 +224,7 @@
   .trust-chip .cell{ display:flex; flex-direction:column; gap:3px; position:relative; }
   .trust-chip .cell + .cell{ padding-left:clamp(16px,3vw,34px); }
   .trust-chip .cell + .cell::before{ content:""; position:absolute; left:0; top:5px; bottom:5px; width:1px; background:rgba(255,255,255,.18); }
-  .trust-chip .n{ font-family:"Bigshot One","Arial Black",sans-serif; font-weight:400; font-size:1.42rem; line-height:1; letter-spacing:.01em; color:#fff; }
+  .trust-chip .n{ font-family:"Big Shoulders Display","Arial Narrow",sans-serif; font-weight:800; font-size:1.42rem; line-height:1; letter-spacing:.01em; color:#fff; }
   .trust-chip .n .stars{ color:var(--orange-soft); font-size:.95rem; letter-spacing:1px; }
   .trust-chip .l{ font-size:.74rem; color:#ceccc7; font-weight:700; letter-spacing:.02em; }
   @media (max-width:470px){
@@ -239,7 +239,7 @@
   .strip .grid{ display:grid; grid-template-columns:repeat(4,1fr); }
   .strip .cell{ padding:30px 22px; text-align:center; border-right:1px solid rgba(255,255,255,.1); min-width:0; }
   .strip .cell:last-child{ border-right:0; }
-  .strip .n{ font-family:"Bigshot One","Arial Black",sans-serif; font-weight:400; font-size:1.5rem; line-height:1; letter-spacing:.01em; color:#fff; }
+  .strip .n{ font-family:"Big Shoulders Display","Arial Narrow",sans-serif; font-weight:800; font-size:1.5rem; line-height:1; letter-spacing:.01em; color:#fff; }
   .strip .n .stars{ color:var(--orange-soft); letter-spacing:2px; }
   .strip .l{ font-size:.78rem; color:#b6b4af; margin-top:11px; letter-spacing:.03em; }
   @media (max-width:680px){
@@ -278,7 +278,7 @@
   .svc.feat .ic{ background:linear-gradient(160deg,var(--orange),var(--orange-dark)); color:#fff; border-color:transparent; }
   .svc.feat{ border-color:#f0b592; box-shadow:0 2px 6px rgba(196,71,10,.08),0 26px 48px -26px rgba(196,71,10,.4); }
   .svc .ic svg{ width:27px; height:27px; }
-  .svc .tag{ align-self:flex-start; font-family:"Cutive Mono",monospace; font-size:.62rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--orange-dark); background:rgba(238,90,19,.1); border:1px solid rgba(238,90,19,.24); padding:.32em .6em; border-radius:5px; margin-top:-2px; }
+  .svc .tag{ align-self:flex-start; font-family:"Public Sans", system-ui, sans-serif; font-size:.62rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--orange-dark); background:rgba(238,90,19,.1); border:1px solid rgba(238,90,19,.24); padding:.32em .6em; border-radius:5px; margin-top:-2px; }
   .svc h3{ color:var(--ink); }
   .svc p{ margin:0; color:var(--muted); font-size:.95rem; }
 
@@ -304,7 +304,7 @@
   .band-ink .eyebrow::before{ background:var(--orange-soft); }
   .pull{
     border-left:3px solid var(--orange); padding:2px 0 2px 22px; margin:6px 0 22px;
-    font-family:"Cutive Mono",monospace; font-weight:400; font-size:1.02rem; line-height:1.56; color:var(--ink); font-style:italic;
+    font-family:"Public Sans", system-ui, sans-serif; font-weight:400; font-size:1.02rem; line-height:1.56; color:var(--ink); font-style:italic;
   }
   .band-ink .pull{ color:#fff; border-left-color:var(--orange-soft); }
 
@@ -326,7 +326,7 @@
   .rev .stars{ color:var(--orange-soft); letter-spacing:2px; font-size:1.02rem; }
   .rev blockquote{ margin:0; font-size:.98rem; line-height:1.64; color:#ebe9e4; flex:1; }
   .rev .who{ display:flex; align-items:center; gap:12px; margin-top:2px; min-width:0; }
-  .rev .who .av{ width:42px; height:42px; border-radius:50%; flex:0 0 auto; background:var(--orange); color:#fff; display:grid; place-items:center; font-family:"Bigshot One","Arial Black",sans-serif; font-weight:400; font-size:1rem; }
+  .rev .who .av{ width:42px; height:42px; border-radius:50%; flex:0 0 auto; background:var(--orange); color:#fff; display:grid; place-items:center; font-family:"Big Shoulders Display","Arial Narrow",sans-serif; font-weight:800; font-size:1rem; }
   .rev .who > span{ display:flex; flex-direction:column; min-width:0; }
   .rev .who .nm{ font-weight:700; color:#fff; font-size:.94rem; }
   .rev .who .src{ font-size:.77rem; color:#a6a49e; }
@@ -342,7 +342,7 @@
   .info-list li{ display:flex; gap:14px; align-items:flex-start; min-width:0; }
   .info-list .ic{ width:44px; height:44px; flex:0 0 auto; border-radius:10px; background:linear-gradient(160deg,#fff,var(--bg-2)); color:var(--orange); display:grid; place-items:center; border:1px solid var(--line); }
   .info-list .ic svg{ width:22px; height:22px; }
-  .info-list .t b{ display:block; font-family:"Bigshot One","Arial Black",sans-serif; font-weight:400; font-size:1rem; letter-spacing:.02em; text-transform:uppercase; margin-bottom:4px; }
+  .info-list .t b{ display:block; font-family:"Big Shoulders Display","Arial Narrow",sans-serif; font-weight:800; font-size:1rem; letter-spacing:.02em; text-transform:uppercase; margin-bottom:4px; }
   .info-list .t span,.info-list .t a{ color:var(--muted); }
   .info-list .t a:hover{ color:var(--orange-dark); }
   .hours-row{ display:flex; justify-content:space-between; gap:14px; max-width:24em; }
@@ -351,16 +351,16 @@
   .contact-cta{ display:flex; flex-wrap:wrap; gap:14px; }
   .map-card{ background:var(--paper); border:1px solid var(--line); border-radius:14px; overflow:hidden; box-shadow:var(--shadow); min-width:0; }
   .map-card .mh{ padding:20px 24px; }
-  .map-card .mh b{ font-family:"Bigshot One","Arial Black",sans-serif; font-weight:400; font-size:1.06rem; letter-spacing:.02em; text-transform:uppercase; }
+  .map-card .mh b{ font-family:"Big Shoulders Display","Arial Narrow",sans-serif; font-weight:800; font-size:1.06rem; letter-spacing:.02em; text-transform:uppercase; }
   .map-card .mh div{ color:var(--muted); font-size:.92rem; margin-top:4px; }
   .map-card iframe{ width:100%; height:300px; border:0; display:block; filter:grayscale(.18) contrast(1.03); }
 
   /* ---------- Footer ---------- */
   footer.site{ background:var(--ink); color:#b6b4af; padding-block:clamp(50px,6vw,74px) 28px; }
   footer.site .cols{ display:flex; flex-wrap:wrap; gap:30px 60px; justify-content:space-between; }
-  footer.site .name{ font-family:"Bigshot One","Arial Black",sans-serif; font-weight:400; font-size:1.34rem; letter-spacing:.01em; color:#fff; margin-bottom:10px; }
-  footer.site .name b{ color:var(--orange-soft); font-weight:400; }
-  footer.site .name small{ display:block; font-family:"Cutive Mono",monospace; font-weight:700; font-size:.55rem; letter-spacing:.15em; text-transform:uppercase; color:var(--muted-2); margin-top:10px; }
+  footer.site .name{ font-family:"Big Shoulders Display","Arial Narrow",sans-serif; font-weight:800; font-size:1.34rem; letter-spacing:.01em; color:#fff; margin-bottom:10px; }
+  footer.site .name b{ color:var(--orange-soft); font-weight:800; }
+  footer.site .name small{ display:block; font-family:"Public Sans", system-ui, sans-serif; font-weight:700; font-size:.55rem; letter-spacing:.15em; text-transform:uppercase; color:var(--muted-2); margin-top:10px; }
   footer.site a{ color:#ceccc7; }
   footer.site a:hover{ color:#fff; }
   .foot-hours{ font-size:.9rem; line-height:1.8; }
